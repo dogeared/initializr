@@ -693,6 +693,44 @@ initializr:
         - name: Remote Shell
           id: remote-shell
           description: CRaSH shell integration
+    - name: Identity Management
+      content:
+        - name: Stormpath Spring Boot Starter
+          groupId: com.stormpath.spring
+          artifactId: stormpath-spring-boot-starter
+          id: stormpath-spring-boot-starter
+          description: Spring Boot Starter for Stormpath
+          version: 1.0.RC9.2
+        - name: Stormpath WebMVC Spring Boot Starter
+          groupId: com.stormpath.spring
+          artifactId: stormpath-webmvc-spring-boot-starter
+          id: stormpath-webmvc-spring-boot-starter
+          description: Stormpath WebMVC Spring Boot Starter
+          version: 1.0.RC9.2
+        - name: Stormpath Thymeleaf Spring Boot Starter
+          groupId: com.stormpath.spring
+          artifactId: stormpath-thymeleaf-spring-boot-starter
+          id: stormpath-thymeleaf-spring-boot-starter
+          description: Spring Boot Web Starter for Stormpath with Thymeleaf views
+          version: 1.0.RC9.2
+        - name: Stormpath Spring Security Spring Boot Starter
+          groupId: com.stormpath.spring
+          artifactId: stormpath-spring-security-spring-boot-starter
+          id: stormpath-spring-security
+          description: Spring Boot Starter for Stormpath with Spring Security Integration
+          version: 1.0.RC9.2
+        - name: Stormpath Spring Security WebMVC Spring Boot Starter
+          groupId: com.stormpath.spring
+          artifactId: stormpath-spring-security-webmvc-spring-boot-starter
+          id: stormpath-spring-security-webmvc-spring-boot-starter
+          description: Spring Boot WebMVC Starter for Stormpath with Spring Security
+          version: 1.0.RC9.2
+        - name: Stormpath Spring Boot
+          groupId: com.stormpath.spring
+          artifactId: stormpath-default-spring-boot-starter
+          id: stormpath-default-spring-boot-starter
+          description: Spring Boot Default Starter for Stormpath with WebMVC, Thymeleaf and Spring Security
+          version: 1.0.RC9.2
   types:
     - name: Maven Project
       id: maven-project
